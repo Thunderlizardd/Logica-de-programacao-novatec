@@ -1,0 +1,48 @@
+
+* {
+
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(182, 165, 131);
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 10px;
+    border-bottom: 5px solid black;
+
+}
+
+.labelmedication,
+.labelinPrice {
+
+    display: block;
+    padding: 10px 0;
+    font-size: x-large;
+}
+
+input[type="button"] {
+
+    margin: 30px;
+    padding: 5px;
+    width: 10em;
+
+
+}
