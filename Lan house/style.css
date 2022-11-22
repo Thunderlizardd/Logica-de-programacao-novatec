@@ -1,0 +1,30 @@
+.container {
+
+    border: 5px solid black;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(109, 182, 178, 0.589);
+}
+
+.valorUso {
+    padding: 10px;
+    font-size: large;
+}
+
+.tempoUso {
+    padding: 15px;
+    font-size: large;
+}
+
+.outResult{
+    padding: 40px;
+
+}
+
+body {
+
+    background-color: rgb(102, 119, 119);
+
+}
