@@ -1,0 +1,39 @@
+.container {
+    border: 3px solid black;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(57, 180, 108);
+
+
+}
+
+.labelProduct {
+    padding: 5px;
+
+}
+
+.labelPrice{
+    padding: 14px;
+
+}
+
+.product, .price {
+    padding: 5px;
+
+}
+
+.result {
+    padding: 30px;
+
+
+}
+
+
+body {
+
+    background-color: rgb(144, 184, 144);
+
+
+}
