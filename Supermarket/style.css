@@ -1,5 +1,5 @@
 .container {
-    border: 3px solid black;
+    border: 3px solid rgb(24, 78, 17);
     width: 50%;
     margin: auto;
     text-align: center;
@@ -10,12 +10,12 @@
 }
 
 .labelProduct {
-    padding: 5px;
+    padding: 11px;
 
 }
 
 .labelPrice{
-    padding: 14px;
+    padding: 7px;
 
 }
 
