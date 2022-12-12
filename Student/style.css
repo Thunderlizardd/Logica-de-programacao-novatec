@@ -1,0 +1,36 @@
+.container {
+    border: 3px solid;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(38, 156, 235);
+
+}
+
+.labelNameStudent{
+    padding: 12px;
+
+}
+
+
+.nameStudent, .resultExameOne, .resultExameTwo {
+    padding: 5px;
+    
+}
+
+
+
+.btShowMeResult {
+    padding: 10px;
+
+
+}
+
+body {
+    background-color: rgb(29, 105, 156);
+
+
+
+
+}
