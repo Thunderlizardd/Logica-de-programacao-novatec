@@ -4,31 +4,32 @@
     text-align: center;
     margin: auto;
     padding: 10px;
-    background-color: rgb(38, 156, 235);
+    background-color: rgb(117, 185, 168);
+    display: block;
 
 }
 
 .labelNameStudent{
-    padding: 12px;
-
+    padding: 5px;
+   
+    
 }
 
 
 .nameStudent, .resultExameOne, .resultExameTwo {
     padding: 5px;
+    display: block;
     
 }
 
-
-
 .btShowMeResult {
-    padding: 10px;
+    padding: 5px;
 
 
 }
 
 body {
-    background-color: rgb(29, 105, 156);
+    background-color: rgb(29, 156, 118);
 
 
 

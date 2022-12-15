@@ -6,7 +6,7 @@ function schoolAverage() {
     var inStudentName = document.getElementById("inStudentName");
     var inResultExameOne = document.getElementById("inResultExameOne");
     var inResultExameTwo = document.getElementById("inResultExameTwo");
-    var ShowExameAverage = document.getElementById("ShowExameAverage");
+    var ShowMeExameAverage = document.getElementById("ShowMeExameAverage");
     var showMeApproved = document.getElementById("showMeApproved");
 
     // obter o conteúdo dos campos de entrada
@@ -24,15 +24,17 @@ function schoolAverage() {
 
     if (averageExame >= 7) {
 
-        ShowExameAverage.textContent = "Média das Notas: " + averageExame
+        ShowMeExameAverage.textContent = "Média das Notas: " + averageExame.toFixed(1)
         showMeApproved.textContent = "Parabens   " + nameStudent + " !  You was approved"
+        showMeApproved.style.color = "blue";
 
     } else {
  
         if (averageExame < 7) {
 
-            ShowExameAverage.textContent = "Média das Notas: " + averageExame
+            ShowMeExameAverage.textContent = "Média das Notas: " + averageExame
             showMeApproved.textContent = nameStudent + " you was disapproved"
+            showMeApproved.style.color = "red";
 
         }
 
