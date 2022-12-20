@@ -18,7 +18,7 @@ function schoolAverage() {
     // calcular os valores
 
     var averageExame = (exameOne + exameTwo) / 2;
-        
+
     // criar condição e exibir os resultados
 
 
@@ -26,19 +26,24 @@ function schoolAverage() {
 
         ShowMeExameAverage.textContent = "Média das Notas: " + averageExame.toFixed(1)
         showMeApproved.textContent = "Parabens   " + nameStudent + " !  You was approved"
+        showMeApproved.style.color = "green";
+
+    } else if (averageExame >= 4) {
+
+        ShowMeExameAverage.textContent = "Média das Notas: " + averageExame
+        showMeApproved.textContent = nameStudent + " you go to the final"
         showMeApproved.style.color = "blue";
 
+
     } else {
- 
-        if (averageExame < 7) {
 
-            ShowMeExameAverage.textContent = "Média das Notas: " + averageExame
-            showMeApproved.textContent = nameStudent + " you was disapproved"
-            showMeApproved.style.color = "red";
-
-        }
+        ShowMeExameAverage.textContent = "Média das Notas: " + averageExame
+        showMeApproved.textContent = nameStudent + " you was disapproved"
+        showMeApproved.style.color = "red";
 
     }
+
+
 
 }
 // criar referência ao elemento botão
