@@ -34,9 +34,9 @@ function calculationHeight() {
     // se isMale (significa se isMale == true)
 
     if (isMale) {
-        var height = (22 * Math.pow(yourHeight, 2)); // Math.pow eleva ao quadrado
+        var height = (24 * (yourHeight * yourHeight/10000)) ; // Math.pow eleva ao quadrado
     } else {
-        var height = (21 * Math.pow(yourHeight, 2));
+        var height = (24 * (yourHeight * yourHeight/10000));
     }
 
     // apresentar a resposta (alterar o conteudo da linha outResult)
