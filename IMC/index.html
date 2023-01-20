@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index - IMC</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="imgBalança" >
+        <img src="img/empénabalança.png" alt="Balança de Peso">
+    </div>
+    
+    <div class="container">
+        <h1> Body Mass Index - IMC </h1>
+        <div>
+            <label for="userName">Name: </label>
+            <input type="text" id="inUserName"> 
+        </div>
+        <div>
+            <label for="maleOrFemale"></label>
+            <input type="radio" name= "sexo" id="inMale"> Male
+            <input type="radio" name="sexo" id="inFemale"> Female
+        </div>
+        <div>
+            <label for="height">Height </label>
+            <input type="number" id="inHeight">
+        </div>
+        <div class="result">    
+            <input type="button" value="Calcule Height" id="btCalculate">
+            <input type="button" value="Clear" id="btClear">
+        </div>
+        <div>
+            <h3 id="outResult"></h3>
+
+
+        </div>
+        
+<script src="script.js"></script>
+
+    </div>
+
+</body>
+</html>
