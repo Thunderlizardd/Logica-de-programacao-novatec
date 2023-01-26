@@ -1,34 +1,34 @@
 
 
-var preco;
-var estado;
-var icms=0;
-var uf;
+var inHour;
+var nameCoutry;
+var hour;
+var country;
 
 function calculo(){
 
 
     var outResult = document.getElementById("outResult");
     var minutos = document.querySelector("#outMinutos");
-    var texto1 = minutos.value;
+    var incluirMinutos = minutos.value;
 
 
-  preco = parseFloat(document.calculos.preco.value);
-  uf = document.getElementById("estado");
-  estado = uf.options[uf.selectedIndex].id;
+  inHour = parseFloat(document.calculos.inHour.value);
+  country = document.getElementById("inCountry");
+  nameCoutry = country.options[country.selectedIndex].id;
 
-  if (estado=="Italia") {
-      icms = preco + 4;
-  }else if(estado=="Franca") {
-      icms = preco + 4;
-  }else if (estado=="EUA") {
-      icms = preco - 2;
-  }else if (estado=="Japao") {
-      icms = preco + 12;
-  }else if (estado=="Canada") {
-      icms = preco - 2;
+  if (nameCoutry=="Italia") {
+    hour = inHour + 4;
+  }else if(nameCoutry=="Franca") {
+    hour = inHour + 4;
+  }else if (nameCoutry=="EUA") {
+    hour = inHour - 2;
+  }else if (nameCoutry=="Japao") {
+    hour = inHour + 12;
+  }else if (nameCoutry=="Canada") {
+    hour = inHour - 2;
   }
 
-  outResult.textContent = 'São '+ icms.toString() +':'+ texto1 + ' no fuso ' + estado 
+  outResult.textContent = 'São '+ hour.toString() +':'+ incluirMinutos + ' no fuso ' + nameCoutry 
 
 }
