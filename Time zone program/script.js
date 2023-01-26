@@ -29,6 +29,6 @@ function calculo(){
     hour = inHour - 2;
   }
 
-  outResult.textContent = 'São '+ hour.toString() +':'+ incluirMinutos + ' no fuso ' + nameCoutry 
+  outResult.textContent = 'São '+ hour.toString() +':'+ incluirMinutos + ' no fuso do país: ' + nameCoutry 
 
 }
