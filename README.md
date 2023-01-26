@@ -26,3 +26,5 @@ O capítulo 1 é uma introdução a lógica de programação e algoritimos, uma 
 [Situação do aluno](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/Student)
 
 [Peso Ideal;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/IMC)
+
+[Fuso Horário;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/Time%20zone%20program)
