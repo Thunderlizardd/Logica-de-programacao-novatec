@@ -28,3 +28,9 @@ O capítulo 1 é uma introdução a lógica de programação e algoritimos, uma 
 [Peso Ideal;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/IMC)
 
 [Fuso Horário;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/Time%20zone%20program)
+
+[Raiz quadrada;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/Raiz%20quadrada)
+
+[Programa caixa eletrônico;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/Caixa%20eletr%C3%B4nico)
+
+[Programa par ou ímpar;](https://github.com/Thunderlizardd/Logica-de-programacao-novatec/tree/main/Programa%20par%20ou%20impar)
