@@ -25,16 +25,12 @@ function velocidade() {
 
     }
 
-
     // fazer as contas
 
-    var abaixo = allowed * 1;
-
-    var vinte = allowed * 1.2;
-
-    var cinquenta = allowed * 1.5;
-
-    var cem = allowed * 2;
+    let abaixo = 100
+    let vinte = 120
+    let cinquenta =  150
+    
 
     if (speedDriver <= abaixo) {
         ouResult.textContent = "Velocidade Permitida";
