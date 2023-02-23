@@ -13,8 +13,8 @@ function velocidade() {
 
     //converter conteúdo do campo em número
 
-    var allowed = Number(inSpeedAllowed.value);
     var speedDriver = Number(inSpeedDriver.value);
+    var allowed = Number(inSpeedAllowed.value);
 
     // se não preencheu ou Not-aNumber (NaN)
 
@@ -39,16 +39,17 @@ function velocidade() {
     if (speedDriver <= abaixo) {
         ouResult.textContent = "Velocidade Permitida";
 
-    } if (speedDriver > abaixo <= vinte) {
-        ouResult.textContent = "Velocidade acima de 20% do permitido Multa leve";
+    } else if (speedDriver >= vinte) {
+        ouResult.textContent = "Velocidade 20% do permitido Multa leve";
 
-    } if (speedDriver > vinte <= cinquenta ) {
-        ouResult.textContent = "Velocidade acima de 50% do permitido Multa grave";
+    } else if (speedDriver > vinte <= cinquenta) {
+        ouResult.textContent = "Velocidade 50% do permitido Multa grave";
 
-    } if (speedDriver > cinquenta > cem) {
-        ouResult.textContent = "Velocidade acima de 100% do permitido gravissíma";
+    } else if (speedDriver > cinquenta > cem) {
+        ouResult.textContent = "Velocidade 100% do permitido gravissíma";
 
     }
+
 
 }
 
