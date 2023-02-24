@@ -17,7 +17,7 @@ function velocidade() {
     var allowed = Number(inSpeedAllowed.value);
 
     // se não preencheu ou Not-aNumber (NaN)
-    
+
     if (allowed == 0 && speedDriver == 0 || isNaN(allowed && speedDriver)) {
         alert("Informe a velocidade corretamente")
         inSpeedAllowed.focus();
@@ -27,30 +27,28 @@ function velocidade() {
 
     // fazer as contas
 
-    var abaixo = allowed * 1;
+    if (speedDriver <= allowed) {
+        ouResult.textContent = " Velocidade: " + speedDriver + "km/h - Sem Multa até o limite da via."
+    } else {
+        let vinte = allowed * 1.2
+        if (speedDriver <= vinte) {
+            ouResult.textContent = " Velocidade: " + speedDriver + "km/h - Multa Leve trafegar até 20% acima do permitido."
+        } else {
+            let cinquenta = allowed * 1.5
+            if (speedDriver <= cinquenta) {
+                ouResult.textContent = " Velocidade: " + speedDriver + "km/h - Multa Grave trafegar até 50% acima do permitido."
+            } else {
+                let cem = allowed * 2
+                if (speedDriver <= cem)
+                ouResult.textContent = " Velocidade: " + speedDriver + "km/h - Multa Gravissíma trafegar até 100% acima do permitido."
+            } 
 
-    var vinte = allowed * 1.2;
-
-    var cinquenta = allowed * 1.5;
-
-    var cem = allowed * 2;
-
-    if (speedDriver <= abaixo) {
-        ouResult.textContent = "Velocidade Permitida " + allowed + " km/h";
-
-    } else if (speedDriver >= vinte) {
-        ouResult.textContent = "Velocidade 20% do permitido Multa leve " + allowed + " km/h";
-
-    } else if (speedDriver > vinte <= cinquenta) {
-        ouResult.textContent = "Velocidade 50% do permitido Multa grave";
-
-    } else if (speedDriver > cinquenta > cem) {
-        ouResult.textContent = "Velocidade 100% do permitido gravissíma";
-
+        }
     }
 
 
 }
+
 
 // criar referência ao elemento btResult e associar ao evento do botão click
 
