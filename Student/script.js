@@ -50,7 +50,7 @@ function schoolAverage() {
 
 var btShowMeSituation = document.getElementById("btShowMeSituation");
 
-// registra um evento associado ao botão
+// registrar um evento associado ao botão
 
 btShowMeSituation.addEventListener("click", schoolAverage);
 
